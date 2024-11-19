@@ -35,8 +35,8 @@ If you want to maintain your docs in the `docs` directory of an existing project
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
 
 ---
-title:试试
-layout:try 
+title: 试试
+layout: try 
 ---
 
 这是一次尝试，试一下而已[^1]
@@ -45,6 +45,6 @@ layout:try
 <asdasdhasdhsadhsd asudhisauhdis hiuahuihsiuh uahauh iuah auihdauh aiudhasiuhaiush>
 click "[xiang]" okkkkk
 
-[^1]: 你干嘛还嗨哟
+[^1]: [你干嘛还嗨哟](https://search.bilibili.com/all?keyword=github+pages&from_source=webtop_search&spm_id_from=333.1007&search_source=5)
 
-[xiang]: https://search.bilibili.com/all?keyword=github+pages&from_source=webtop_search&spm_id_from=333.1007&search_source=5
+[xiang]: https://search.bilibili.com
