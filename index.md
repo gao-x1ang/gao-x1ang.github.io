@@ -33,3 +33,18 @@ If you want to maintain your docs in the `docs` directory of an existing project
 [Jekyll]: https://jekyllrb.com
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+
+---
+title:试试
+layout:try 
+---
+
+这是一次尝试，试一下而已[^1]
+-nijiajdisjdisaj
+-dasjidsaidjsdjidji
+<asdasdhasdhsadhsd asudhisauhdis hiuahuihsiuh uahauh iuah auihdauh aiudhasiuhaiush>
+click"[xiang]"
+
+[^1]:你干嘛还嗨哟
+
+[xiang]: baidu.com
