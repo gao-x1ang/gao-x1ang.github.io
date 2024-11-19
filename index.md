@@ -40,11 +40,11 @@ layout:try
 ---
 
 这是一次尝试，试一下而已[^1]
--nijiajdisjdisaj
--dasjidsaidjsdjidji
+- nijiajdisjdisaj
+- dasjidsaidjsdjidji
 <asdasdhasdhsadhsd asudhisauhdis hiuahuihsiuh uahauh iuah auihdauh aiudhasiuhaiush>
-click"[xiang]"
+click "[xiang]" okkkkk
 
-[^1]:你干嘛还嗨哟
+[^1]: 你干嘛还嗨哟
 
-[xiang]: baidu.com
+[xiang]: https://search.bilibili.com/all?keyword=github+pages&from_source=webtop_search&spm_id_from=333.1007&search_source=5
