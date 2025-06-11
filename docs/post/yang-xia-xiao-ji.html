@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/188955853?v=4"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="# 观察虾苗状态
+
+1. 附着在底部的虾状态好
+2. 能够在贴壁区域游泳的状态好
+3. 其他地方，比如被吸附在出水处无法自拔的虾苗状态不好
+
+# 虾苗喂料
+
+
+| 池子编号 | 投喂重量 g | 次日可能增加到？ |
+| ---- | ------ | -------- |
+| 40   | 3      | 3.5      |
+| 42   | 3      | 3.5      |
+| 44   | 3      | 3.5      |
+|      |        |          |
+| 41   | 2      |          |
+| 43   | 2      |          |
+| 45   | 2      |          |
+| 47   | 2      |          |
+
+	Feeding Time:
+	7:00.  11:00.  17:00.  23:00
+---
+
+	Water change :  
+	1. EVERYday  10% - 20%
+	2. Adding 2 ppm Vitamin C
+---
+
+	1 ppm ➡️ 1 mg / L  = 1 g / ton
+
+
+<mark style='background: #FFF3A3A6;'>Probiotic</mark>(Premix for Aquaculture/水产用复合预混合饲料1)
+1 ppm / day  at   17:00  together with the feed
+
+## 关于喂料
+
+1. 保持一定的总量，比如 16 g / day 
+2. 越小的虾少食多餐越好，一顿喂少一点，多吃几顿。">
+<meta property="og:title" content="养虾小记">
+<meta property="og:description" content="# 观察虾苗状态
+
+1. 附着在底部的虾状态好
+2. 能够在贴壁区域游泳的状态好
+3. 其他地方，比如被吸附在出水处无法自拔的虾苗状态不好
+
+# 虾苗喂料
+
+
+| 池子编号 | 投喂重量 g | 次日可能增加到？ |
+| ---- | ------ | -------- |
+| 40   | 3      | 3.5      |
+| 42   | 3      | 3.5      |
+| 44   | 3      | 3.5      |
+|      |        |          |
+| 41   | 2      |          |
+| 43   | 2      |          |
+| 45   | 2      |          |
+| 47   | 2      |          |
+
+	Feeding Time:
+	7:00.  11:00.  17:00.  23:00
+---
+
+	Water change :  
+	1. EVERYday  10% - 20%
+	2. Adding 2 ppm Vitamin C
+---
+
+	1 ppm ➡️ 1 mg / L  = 1 g / ton
+
+
+<mark style='background: #FFF3A3A6;'>Probiotic</mark>(Premix for Aquaculture/水产用复合预混合饲料1)
+1 ppm / day  at   17:00  together with the feed
+
+## 关于喂料
+
+1. 保持一定的总量，比如 16 g / day 
+2. 越小的虾少食多餐越好，一顿喂少一点，多吃几顿。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gao-x1ang.github.io/post/yang-xia-xiao-ji.html">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/188955853?v=4">
+<title>养虾小记</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">养虾小记</h1>
+<div class="title-right">
+    <a href="https://gao-x1ang.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/gao-x1ang/gao-x1ang.github.io/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h1>观察虾苗状态</h1>
+<ol>
+<li>附着在底部的虾状态好</li>
+<li>能够在贴壁区域游泳的状态好</li>
+<li>其他地方，比如被吸附在出水处无法自拔的虾苗状态不好</li>
+</ol>
+<h1>虾苗喂料</h1>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>池子编号</th>
+<th>投喂重量 g</th>
+<th>次日可能增加到？</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>40</td>
+<td>3</td>
+<td>3.5</td>
+</tr>
+<tr>
+<td>42</td>
+<td>3</td>
+<td>3.5</td>
+</tr>
+<tr>
+<td>44</td>
+<td>3</td>
+<td>3.5</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>41</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>43</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>45</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>47</td>
+<td>2</td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<pre class="notranslate"><code class="notranslate">Feeding Time:
+7:00.  11:00.  17:00.  23:00
+</code></pre>
+<hr>
+<pre class="notranslate"><code class="notranslate">Water change :  
+1. EVERYday  10% - 20%
+2. Adding 2 ppm Vitamin C
+</code></pre>
+<hr>
+<pre class="notranslate"><code class="notranslate">1 ppm ➡️ 1 mg / L  = 1 g / ton
+</code></pre>
+<p><mark>Probiotic</mark>(Premix for Aquaculture/水产用复合预混合饲料1)<br>
+1 ppm / day  at   17:00  together with the feed</p>
+<h2>关于喂料</h2>
+<ol>
+<li>保持一定的总量，比如 16 g / day</li>
+<li>越小的虾少食多餐越好，一顿喂少一点，多吃几顿。缺点就是人的作息不正常，上面这顿可以在加一餐到凌晨3点</li>
+</ol>
+<h1>养虾换水</h1>
+<ol>
+<li>换水前加一定量的 Antistress （维生素E ?）,目的是减少虾的应激反应</li>
+<li>换水后调整碱度</li>
+<li>换水后可以加一定量的 Vitamine C</li>
+</ol>
+<h1>维他命E</h1>
+<p>是一种很强的抗氧化剂<br>
+说明书是这样说的：</p>
+<ol>
+<li>种虾： 1 - 2 g / 立方米</li>
+<li>幼苗： 2 - 3</li>
+<li>成虾：每公斤饲料添加0.5 - 1 g</li>
+<li>每日 1-2 次</li>
+</ol>
+<p>Thai：加 2 ppm 的 antistress 败激灵</p>
+<h1>碱度测定</h1>
+<p>招说明书做</p>
+<p>先加3滴试剂1，再滴定试剂2。比如滴5滴，试剂变色</p>
+<p>5 ✖️ 20 = 100 g / t 以CaCO3计</p>
+<p>比如有3 t 水</p>
+<p><mark>碱度应尽量控制在150为好</mark>，这样虾长得快</p>
+<p>（150 - 100）g/t ✖️ 3 t = 150 g<br>
+那么这个池子就应该再加 150g 小苏打（NaHCO3)</p>
+<h1>虾喂料</h1>
+<p>除了增强料不加，其他的料都要在配置时加上2% 的 混合料2</p>
+<h1>移动虾</h1>
+<p>移动后投料需先减少投饵量，刚移动玩处于应激状态，吃饵量不高；需逐渐增加投饵量</p>
+<h1>虾密度</h1>
+<p>1 立方米 装  1.5 kg 的虾</p>
+<h1>虾肝肠胞虫病--- EHP</h1>
+<p>虾肝肠胞虫病（Enterocytozoon hepatopenaei Infection）是由虾肝肠胞虫（Enterocytozoon hepatopenaei，简称EHP）引起、发生在虾身上的一种常见病害。病虾前期无明显的感染症状，中期的个体表现为行动缓慢并伏底，清晨常浮至水面，摄食减少，反应迟钝，应激能力下降患病，后期可发现群体内病虾体型大小不一。 </p>
+<p>虾肝肠胞虫病感染虾不会马上死去，可以继续存活，也可以进食，但活力大不如前，最严重的是它会阻碍对虾对营养物质的吸收，造成生长缓慢乃至停滞，显著增大了饵料系数，极大地增加养殖成本，对养殖业造成了难以估计的损失，并且该病的阳性检出率非常高。 </p>
+<p>预防该传染病最有效的方式是做好苗种的检疫工作，养殖前期对池塘进行翻底消毒，做好水质的调控，对进、排水体进行消毒处理。</p>
+<h2>对抗方法尝试</h2>
+<h3><strong>阿莫西林</strong>（英语：Amoxicillin）</h3>
+<p>一种<a href="https://zh.wikipedia.org/wiki/%E6%8A%97%E7%94%9F%E7%B4%A0" title="抗生素" rel="nofollow">抗生素</a>药物，属于<a href="https://zh.wikipedia.org/wiki/%E9%9D%92%E9%BB%B4%E7%B4%A0" title="青霉素" rel="nofollow">青霉素</a>家族的<a href="https://zh.wikipedia.org/wiki/%E6%B0%A8%E5%9F%BA%E9%9D%92%E9%9C%89%E7%B4%A0" title="氨基青霉素" rel="nofollow">氨基青霉素</a>类<br>
+[<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4c67397ec497a767609b95eb45435dcaf8ccc6de070095faec17364386e662d1/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f302f30322f416d6f786963696c6c696e2e7376672f32323070782d416d6f786963696c6c696e2e7376672e706e67"><img src="https://camo.githubusercontent.com/4c67397ec497a767609b95eb45435dcaf8ccc6de070095faec17364386e662d1/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f302f30322f416d6f786963696c6c696e2e7376672f32323070782d416d6f786963696c6c696e2e7376672e706e67" alt="" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Amoxicillin.svg/220px-Amoxicillin.svg.png" style="max-width: 100%;"></a>]</p>
+<h3><strong>阿苯达唑</strong>（英语：Albendazole）</h3>
+<p>[<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c2a47da6036eb79022f11e06c715a029dda556904b7ed62906e1e77346c45efd/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33632f416c62656e64617a6f6c652e7376672f32323070782d416c62656e64617a6f6c652e7376672e706e67"><img src="https://camo.githubusercontent.com/c2a47da6036eb79022f11e06c715a029dda556904b7ed62906e1e77346c45efd/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33632f416c62656e64617a6f6c652e7376672f32323070782d416c62656e64617a6f6c652e7376672e706e67" alt="" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Albendazole.svg/220px-Albendazole.svg.png" style="max-width: 100%;"></a><br>
+一种<a href="https://zh.wikipedia.org/wiki/%E8%8B%AF%E4%B8%A6%E5%92%AA%E5%94%91" title="苯并咪唑" rel="nofollow">苯并咪唑</a>类的广效<a href="https://zh.wikipedia.org/wiki/%E9%A9%85%E8%9F%B2%E8%97%A5" title="驱虫药" rel="nofollow">驱虫药</a>和<a href="https://zh.wikipedia.org/w/index.php?title=%E6%8A%97%E5%8E%9F%E8%9F%B2%E8%97%A5&amp;action=edit&amp;redlink=1" title="抗原虫药（页面不存在）" rel="nofollow">抗原虫药</a>，用于治疗多种<a href="https://zh.wikipedia.org/wiki/%E8%85%B8%E9%81%93%E5%AF%84%E7%94%9F%E8%9F%B2" title="肠道寄生虫" rel="nofollow">肠道寄生虫</a><a href="https://zh.wikipedia.org/wiki/%E6%84%9F%E6%9F%93" title="感染" rel="nofollow">感染</a>，包括<a href="https://zh.wikipedia.org/wiki/%E8%9B%94%E8%9F%B2%E7%97%85" title="蛔虫病" rel="nofollow">蛔虫</a>、<a href="https://zh.wikipedia.org/wiki/%E8%9F%AF%E8%9F%B2%E6%84%9F%E6%9F%93" title="蛲虫感染" rel="nofollow">蛲虫</a>、<a href="https://zh.wikipedia.org/wiki/%E9%92%A9%E8%99%AB%E6%84%9F%E6%9F%93" title="钩虫感染" rel="nofollow">钩虫</a>、<a href="https://zh.wikipedia.org/wiki/%E9%9E%AD%E8%99%AB%E7%97%85" title="鞭虫病" rel="nofollow">鞭虫</a>、<a href="https://zh.wikipedia.org/w/index.php?title=%E5%BC%BA%E7%9B%B4%E7%B5%B2%E8%9A%B4%E7%97%85&amp;action=edit&amp;redlink=1" title="强直丝蚴病（页面不存在）" rel="nofollow">强直丝蚴</a>、<a href="https://zh.wikipedia.org/wiki/%E7%BB%A6%E8%99%AB%E7%97%85" title="绦虫病" rel="nofollow">绦虫</a>、<a href="https://zh.wikipedia.org/w/index.php?title=%E5%85%8B%E9%9A%86%E8%9F%B2%E7%97%85&amp;action=edit&amp;redlink=1" title="克隆虫病（页面不存在）" rel="nofollow">克隆虫</a>、<a href="https://zh.wikipedia.org/w/index.php?title=%E5%97%9C%E8%86%BD%E5%90%B8%E8%9F%B2%E7%97%85&amp;action=edit&amp;redlink=1" title="嗜胆吸虫病（页面不存在）" rel="nofollow">嗜胆吸虫</a>、<a href="https://zh.wikipedia.org/w/index.php?title=%E7%9A%AE%E8%86%9A%E5%B9%BC%E8%9F%B2%E7%A7%BB%E8%A1%8C%E7%97%87&amp;action=edit&amp;redlink=1" title="皮肤幼虫移行症（页面不存在）" rel="nofollow">皮肤幼虫</a>、<a href="https://zh.wikipedia.org/wiki/%E6%A2%A8%E5%BD%A2%E9%9E%AD%E6%AF%9B%E8%9F%B2%E7%97%85" title="梨形鞭毛虫病" rel="nofollow">梨形鞭毛虫</a>和<a href="https://zh.wikipedia.org/w/index.php?title=%E9%A1%8E%E5%8F%A3%E7%B7%9A%E8%9F%B2%E7%97%85&amp;action=edit&amp;redlink=1" title="颚口线虫病（页面不存在）" rel="nofollow">颚口线虫</a>等。</p>
+<h3><strong>伊维菌素</strong>（英语：ivermectin）</h3>
+<p><a href="https://zh.wikipedia.org/wiki/File:Ivermectin_skeletal.svg" rel="nofollow"><img src="https://camo.githubusercontent.com/9524aa6d0938ab8b16afc315a80bea9f5f9678a09995508f31f265b34b386df6/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f332f33642f497665726d656374696e5f736b656c6574616c2e7376672f32353070782d497665726d656374696e5f736b656c6574616c2e7376672e706e67" alt="" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ivermectin_skeletal.svg/250px-Ivermectin_skeletal.svg.png" style="max-width: 100%;"></a><br>
+<mark>☠️对虾、鱼、水生生物有剧毒，不能使用</mark></p>
+<h3>虫饮净</h3>
+<p>及<strong>阿苯达唑</strong>和<strong>伊维菌素</strong>预混剂<br>
+<mark>☠️对虾不能用</mark></p>
+<h3><strong>土霉素</strong>（英语：Oxytetracycline）</h3>
+<p><strong>土霉素</strong>（英语：Oxytetracycline），也称<strong>地霉素</strong>、<strong>氧四环素</strong>或<strong>羟四环霉素</strong>，是第二个被发现的广谱抗菌的<a href="https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%AF%E7%B4%A0%E7%B1%BB%E6%8A%97%E7%94%9F%E7%B4%A0" title="四环素类抗生素" rel="nofollow">四环素类抗生素</a>。<br>
+<a href="https://zh.wikipedia.org/wiki/File:Oxytetracycline-2D-skeletal.png" rel="nofollow"><img src="https://camo.githubusercontent.com/c6adf41005aefc4ae9a757d2c226c49e4a1291391833051ec4660beaace4d637/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63612f4f787974657472616379636c696e652d32442d736b656c6574616c2e706e672f32353070782d4f787974657472616379636c696e652d32442d736b656c6574616c2e706e67" alt="" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Oxytetracycline-2D-skeletal.png/250px-Oxytetracycline-2D-skeletal.png" style="max-width: 100%;"></a></p>
+<h1>土霉素的尝试</h1>
+<p>以一天四顿为例：<br>
+（20%盐酸土霉素可溶性粉）</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>7:30</th>
+<th>喂虾时添加 1 ppm 土霉素，停止循环水</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:30</td>
+<td>正常喂虾，恢复循环水</td>
+</tr>
+<tr>
+<td>17:00</td>
+<td>喂虾时添加 1 ppm 土霉素，停止循环水</td>
+</tr>
+<tr>
+<td>22:00</td>
+<td>正常喂虾，恢复循环水</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h1>虾应对低氧应激</h1>
+<p>适用于鼓风机突然不好使，虾池没有气的时候</p>
+<p>水中添加 2-3 ppm 维生素C</p>
+<h1>虾死的多</h1>
+<p>停止喂料2天，再观察</p>
+<h1>阿苯达唑的尝试</h1>
+<p>75 ppm  1  day</p>
+<p>家系桶190L</p>
+<p>装100L海水，添加7.5g 阿苯达唑（2.5%）</p>
+<h1>喂虾 protocols</h1>
+<h2>EHP☠️池子</h2>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>16</th>
+<th>15</th>
+<th></th>
+<th>8</th>
+<th>7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14</td>
+<td>13</td>
+<td></td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr>
+<td>12</td>
+<td>11</td>
+<td></td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>9</td>
+<td>入口</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<ol>
+<li>每天 9:00 a.m. adding 2ppm Vitamin C and 0.5 ppm probiotic（益生菌） for all tank</li>
+<li>长流水一直开，开的小一点（15池除外）</li>
+<li>每天测定 DO、温度、死虾数量</li>
+<li>每天 9:00 a.m. 调整碱度：50 g 小苏打</li>
+<li>每天 9:00 a.m. 给15池换水</li>
+</ol>
+<p>喂料时间：7:30、11:00、17:00、22:00</p>
+<p>2025/03/24：</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>虾奶3：10 g<br>每天两次土霉素：1 ppm/次</th>
+<th>虾奶2: 3 g<br>每天两次土霉素：1 ppm/次</th>
+<th></th>
+<th>(#2) 8 g</th>
+<th>(#2) 8 g</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>家系桶实验</td>
+<td>(# 1) 1.5 g</td>
+<td></td>
+<td>(#2) 8 g</td>
+<td>(#2) 8 g</td>
+</tr>
+<tr>
+<td>红虾：喂一点点</td>
+<td>(# 1) 4 g</td>
+<td></td>
+<td>(#2) 8 g</td>
+<td>(#2) 8 g</td>
+</tr>
+<tr>
+<td>(# 1) 4 g</td>
+<td>(# 1) 4 g</td>
+<td></td>
+<td>(#2) 8 g</td>
+<td>(#2) 8 g</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>实验组情况记录<br>
+3-23  18:00  100L   7.5g 阿苯达唑  药浴？<br>
+3-24  死亡10条（死亡率20%）<br>
+3-25  死亡15条（死亡率37.5%）</p>
+<h1>过硫酸氢钾的尝试</h1>
+<p>2025/3/25<br>
+3:00 p.m.  to   6:00 p.m.    :   change water<br>
+7:00 p.m. :  5 ppm 过硫酸氢钾<br>
+停止换水、停止喂料</p>
+<p>次日7:00 a.m.(即药浴12小时):  喂消炎药10g<br>
+喂料？？  正常喂<br>
+药浴后换水50%</p>
+<h1>换淡水的尝试</h1>
+<p>初始海水盐度：34.5</p>
+<p>左侧池子排去50%海水，加入50%淡水</p>
+<p>排去海水后加 5 ppm antistress, 加完海水后调整碱度</p>
+<p>第二天再排海水加淡水，最终调整盐度为10</p>
+<p><strong>公式总结</strong>：</p>
+<ul>
+<li><strong>总水量</strong>：V（原水体积）</li>
+<li><strong>初始盐度</strong>：C1</li>
+<li><strong>目标盐度</strong>：C2</li>
+<li><strong>需排出的原水量</strong>：x</li>
+<li><strong>需添加的淡水量</strong>：x</li>
+</ul>
+<h1>测量氨氮</h1>
+<p>ammonia nitrogen<br>
+水中以游离氨（NH3）和铵离子（NH4+）形式存在的氮</p>
+<h1>加虾青素</h1>
+<p>每日一次，17:00 喂</p>
+<p>16:30 拌料：每 kg 料混入2~3g虾青素。用一点点水来溶解虾青素，再拌进料里，晾半个小时后投喂</p>
+<h1>换水后加</h1>
+<p>2 ppm 红糖<br>
+2 ppm 维生素C（德维乐） 或 维生素E（Antistress）<br>
+1 ppm  速补100<br>
+1 ppm bio-gammamix</p>
+<p>可以直接配所有池子的量，在一个大桶里。用的时候用小杯子呈。</p>
+<h1>每日工作</h1>
+<ol>
+<li>7:30 喂虾,这顿A9-A16可以加0.5ppm的益生菌</li>
+</ol>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>A1-A8</th>
+<th>8g #2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A9、A10、A11</td>
+<td>4g #1</td>
+</tr>
+<tr>
+<td>A12红虾</td>
+<td>一点点#1</td>
+</tr>
+<tr>
+<td>A13</td>
+<td>1.5g #1</td>
+</tr>
+<tr>
+<td>A15（红虾）</td>
+<td>1g  # 虾奶2</td>
+</tr>
+<tr>
+<td>A16（杂交系）</td>
+<td>8g # 虾奶3</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<ol start="2">
+<li>7:35 喂虾后：捞死虾，记录每池子死虾个数</li>
+<li>8:00 换水（A1-A8）:按Thai要求降低盐度，换水记得加Antistress混</li>
+<li>换完水后：测量碱度，加小苏打将碱度调整为150左右</li>
+<li>测量水中溶解氧（DO）</li>
+<li>11:00 喂虾, 这顿A1-A8可以加0.5ppm的益生菌</li>
+<li>14:30 换水（A9-A16），加Antistress混，加小苏打</li>
+<li>16:30 拌料：每 kg 料混入2~3g虾青素。用一点点水来溶解虾青素，再拌进料里，晾半个小时后投喂。</li>
+<li>17:00 喂虾。喂虾后捞死虾，统计数量。埋死虾。</li>
+<li>22:00 喂虾</li>
+</ol>
+<h1>有待讨论</h1>
+<ol>
+<li>阿苯达唑的投喂方法、剂量、烘干温度</li>
+<li>过硫酸氢钾的药浴方法：右侧20:00、左侧23:00？</li>
+<li>A12池已经清空</li>
+</ol>
+<h1>育种车间养虾methods</h1>
+<h1>1</h1>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="center">tank</th>
+<th align="center">9</th>
+<th>10</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p>7:30 喂料<br>
+喂料后换水：不脏换20%，脏换50%<br>
+9:00  清洗料台<br>
+11:00 喂料<br>
+15:00 周一周五使用酵母<br>
+杂活：调碱度、测DO、温度等、倒死虾<br>
+17:00  喂料<br>
+22:00 喂料</p></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://gao-x1ang.github.io">Xiang's Lab</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","gao-x1ang/gao-x1ang.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
+
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
+
+</script>
+
+
+</html>
